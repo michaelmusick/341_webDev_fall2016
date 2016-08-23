@@ -13,7 +13,7 @@
 - Maybe this is UMT Moodle instead?
 
 ## Homework Wiki
-- [Homework](https://github.com/michaelmusick/MART191_CreativeCoding/wiki)
+- [Homework](https://github.com/michaelmusick/341_webDev/wiki)
 
 ## Books (optional)
 - If you are interested in some supplemental reading on HTML and CSS, The [HTML & CSS book](http://www.htmlandcssbook.com/) is a nice one.
