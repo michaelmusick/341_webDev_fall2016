@@ -8,6 +8,11 @@
 - Focus Areas: The Web and Development Environment
     1. Syllabus & Class overview. History of the Web. Browsers.
     2. Text editors (ST3 and Atom). Viewing source code. GitHub and GitHub Pages.
+        * Git and Github
+        * [Introduction to Git and Command Line by Steve Klise](http://sklise.com/2012/09/22/introduction-to-git/)
+        * [Git workflow for beginners](http://sklise.com/2012/10/07/git-workflow-beginner/)
+        * ["Try" Git tutorial](https://try.github.io/levels/1/challenges/1)
+        * Github Pages: By no means, is github pages required for hosting your projects.  But it's free and fast and lives on github.  So there are many reasons why you might like to consider it, at least during the homework / experimentation stage / of a project. 
 - Exercises / Assignments:
     - web.archive.org and Source Code
         1. Find the earliest instance of google.com that you can and describe the interface and interaction. 
