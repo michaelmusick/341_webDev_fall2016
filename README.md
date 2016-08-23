@@ -1,5 +1,22 @@
-# MART 341 Intro to Web Development 
-## Fall 2016
+# MART 341 Intro to Web Development  |  Fall 2016
+
+# SYLLABUS
+
+### Professor Michael Musick
+- Email: 
+- Phone: N/A
+- Office Hours: 
+
+## Course Overview ##
+
+## Listserv
+- Maybe this is UMT Moodle instead?
+
+## Homework Wiki
+- [Homework](https://github.com/michaelmusick/MART191_CreativeCoding/wiki)
+
+## Books (optional)
+- If you are interested in some supplemental reading on HTML and CSS, The [HTML & CSS book](http://www.htmlandcssbook.com/) is a nice one.
 
 ## Course Outline
 ## SECTON 1: Fundamentals
@@ -8,11 +25,13 @@
 - Focus Areas: The Web and Development Environment
     1. Syllabus & Class overview. History of the Web. Browsers.
     2. Text editors (ST3 and Atom). Viewing source code. GitHub and GitHub Pages.
+        * Unix
+            - [Basic Unix Commands](http://www.webmonkey.com/2010/02/learn_enough_unix_for_your_resume/#Basic_Commands)
         * Git and Github
-        * [Introduction to Git and Command Line by Steve Klise](http://sklise.com/2012/09/22/introduction-to-git/)
-        * [Git workflow for beginners](http://sklise.com/2012/10/07/git-workflow-beginner/)
-        * ["Try" Git tutorial](https://try.github.io/levels/1/challenges/1)
-        * Github Pages: By no means, is github pages required for hosting your projects.  But it's free and fast and lives on github.  So there are many reasons why you might like to consider it, at least during the homework / experimentation stage / of a project. 
+            * [Introduction to Git and Command Line by Steve Klise](http://sklise.com/2012/09/22/introduction-to-git/)
+            * [Git workflow for beginners](http://sklise.com/2012/10/07/git-workflow-beginner/)
+            * ["Try" Git tutorial](https://try.github.io/levels/1/challenges/1)
+            * Github Pages: By no means, is github pages required for hosting your projects.  But it's free and fast and lives on github.  So there are many reasons why you might like to consider it, at least during the homework / experimentation stage / of a project. 
 - Exercises / Assignments:
     - web.archive.org and Source Code
         1. Find the earliest instance of google.com that you can and describe the interface and interaction. 
@@ -25,7 +44,11 @@
 - Topic: HTML 1
 - Focus Areas: Hello World
     1. Intro to "HMTL5, CSS3, & JS", index.html, `<Head><Body>`, "Hello World"
+        2. [HTML 5 For Web Designers (Content on right)](http://html5forwebdesigners.com/)
+        3. 
     2. Markup, "Elements, Tags, & Attributes", Style & Best Practices,
+        3. [Mozilla Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+        4. 
 - Exercises / Assignments:
     - Copy a Poem;
         - Find a poem between 10-30 lines long. Copy it into an index.html file. 
@@ -121,3 +144,50 @@ THANKSGIVING BREAK [Wednesday, Thursday, Friday Holiday]
 
 ### Finals Week: 12.12
 - Exercises / Assignments:
+
+
+# Policies
+##Evaluation
+
+We will have weekly assignments that are relevant to material from the previous class. These assignments are required and you should be prepared to show/talk about them in class. It is expected that everyone in the class will create and maintain a blog for their assignments.
+
+Attendance is mandatory. Please inform your teacher via email if you are going to miss a class. Two unexcused absences is cause for failing the class. (An unexcused lateness of 10 minutes or more is equivalent to 1/2 an absence.)
+
+This class will be participatory, you are expected to participate in discussions and give feedback to other students both in class and participate with their projects. This (along with attendance) is 40% of your grade.
+
+Class will culminate with final projects. You are expected to push your abilities to produce something that utilizes what you have learned in the class that is useful in some manner to yourself or the world. This will comprise 20% of your grade.
+Grades will be based primarily on the student’s ability to:
+1. Demonstrate an understanding of the specific characteristics and integrative capabilities of the assigned topic in your own words and code.
+2. Articulate a clear and concise perspective. Cutting and pasting or copying word for word off the Internet will result in loss of points.
+3. Present an organized file/program, as well as blog entry; including proper and punctual delivery of the assignment files.
+4. Demonstrate creativity beyond the expected technical requirements.
+
+
+IMPORTANT: Assignments handed in after the due date and time will have points deducted for lateness. This will be in addition to any points deducted for content. Those that are uploaded late but within one week of the due date will lose 1 point for lateness.  For those uploaded after that, the number of deducted points will be at the discretion of the faculty. 
+
+
+### Grade Break Down    
+Grades will be determined according to the following breakdown:
+* Regular Assignments 50%
+* Participation and Attendance 30%
+* Final Project 20%
+
+Letter Break Downs
+- A   95-100
+- A-  90-94
+- B+  86-89
+- B   83-85
+- B-  80-82
+- C+  76-79
+- C   73-75
+- C-  70-72
+- D   60-69
+- F   0-59
+
+
+## Academic Misconduct and the Student Conduct Code
+
+All students must practice academic honesty. Academic misconduct is subject to an academic penalty by the course instructor and/or disciplinary sanction by the University. All students need to be familiar with the Student Conduct Code. The Code is available online at http://www.umt.edu/vpsa/policies/student_conduct.php
+
+## Changes to the Course
+I reserve the right to change the intended content of this course throughout the semester. This may be done to adjust for the speed of the class, to better meet educational goals, or to account for changes in technology.
