@@ -3,7 +3,7 @@
 # SYLLABUS
 
 ### Professor Michael Musick
-- Email: 
+- Email: michael.musick@umontana.edu
 - Phone: N/A
 - Office Hours: 
 
