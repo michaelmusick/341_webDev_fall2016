@@ -18,6 +18,13 @@
 ## Books (optional)
 - If you are interested in some supplemental reading on HTML and CSS, The [HTML & CSS book](http://www.htmlandcssbook.com/) is a nice one.
 
+## Server Hosting
+You will be expected to purchase hosting space. We recommend BlueHost.org.
+
+## Goals
+- Representing yourself online
+- Getting clients and building websites
+
 ## Course Outline
 ## SECTON 1: Fundamentals
 ### Week 1: 8.29
