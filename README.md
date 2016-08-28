@@ -4,8 +4,8 @@
 
 ### Professor Michael Musick
 - Email: michael.musick@umontana.edu
-- Phone: N/A
-- Office Hours: 
+- Office: 232 - McGill Hall
+- Office Hours: Tuesdays, 10:30AM-Noon; Wednesdays, 2:30PM-4:00PM
 
 ## Course Overview ##
 
@@ -19,7 +19,7 @@
 - If you are interested in some supplemental reading on HTML and CSS, The [HTML & CSS book](http://www.htmlandcssbook.com/) is a nice one.
 
 ## Server Hosting
-You will be expected to purchase hosting space. We recommend BlueHost.org.
+You will be expected to purchase hosting space for your work between October and the end of the semester. We recommend [`BlueHost.org`](bluehost.org).
 
 ## Goals
 - Representing yourself online
@@ -176,7 +176,8 @@ IMPORTANT: Assignments handed in after the due date and time will have points de
 ### Grade Break Down    
 Grades will be determined according to the following breakdown:
 * Regular Assignments 50%
-* Participation and Attendance 30%
+* Participation and Attendance 20%
+* Exam 10%
 * Final Project 20%
 
 Letter Break Downs
