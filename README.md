@@ -19,7 +19,7 @@
 - If you are interested in some supplemental reading on HTML and CSS, The [HTML & CSS book](http://www.htmlandcssbook.com/) is a nice one.
 
 ## Server Hosting
-You will be expected to purchase hosting space for your work between October and the end of the semester. We recommend [`BlueHost.org`](bluehost.org).
+You will be expected to purchase hosting space for your work between October and the end of the semester. We recommend [`BlueHost.org`](https://www.bluehost.com).
 
 ## Goals
 - Representing yourself online
