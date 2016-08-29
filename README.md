@@ -8,6 +8,9 @@
 - Office Hours: Tuesdays, 10:30AM-Noon; Wednesdays, 2:30PM-4:00PM
 
 ## Course Overview ##
+This course is intended to make you comfortable with presenting yourself through the web. In addition, you will learn skills that should allow you to build, manage, and develop websites for potential customers.
+
+This course will start with an overview of HTML and CSS. This will be handled through a static hosting on github.io. After this introduction, Content Management Systems will be introduced, with particular emphasis paid to [wordpress.org](https://wordpress.org)
 
 ## Listserv
 - Maybe this is UMT Moodle instead?
