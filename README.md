@@ -62,7 +62,7 @@ You will be expected to purchase hosting space for your work between October and
       - ["Try" Git tutorial](https://try.github.io/levels/1/challenges/1)
       - Github Pages: By no means, is github pages required for hosting your projects. But it's free and fast and lives on github. So there are many reasons why you might like to consider it, at least during the homework / experimentation stage / of a project.
 
-- **Exercises / Assignments:** _history, web.archive.org, and Source Code_
+**Exercises / Assignments:** _history, web.archive.org, and Source Code_
 
     1. Read about the [History of the Web](http://webfoundation.org/about/vision/history-of-the-web/) 
 and [Browsers.](http://www.telegraph.co.uk/technology/microsoft/11577364/Web-browsers-a-brief-history.html) 
