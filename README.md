@@ -44,26 +44,25 @@ You will be expected to purchase hosting space for your work between October and
 - Topic: Basic Terms and Concepts
 - Focus Areas: The Web and Development Environment
 
-  1. Syllabus & Class overview. 
+1. Syllabus & Class overview. 
 	  - [History of the Web.](http://webfoundation.org/about/vision/history-of-the-web/) 
 	  - [Browsers.](http://www.telegraph.co.uk/technology/microsoft/11577364/Web-browsers-a-brief-history.html)
-  2. Text editors 
+2. Text editors 
 	- [ST3](https://www.sublimetext.com/3) 
 	- [Atom](https://atom.io) 
-	3. Viewing source code. 
+3. Viewing source code. 
 
-	4. Unix
+4. Unix
+	- [Basic Unix Commands](http://www.webmonkey.com/2010/02/learn_enough_unix_for_your_resume/#Basic_Commands)
 
-      - [Basic Unix Commands](http://www.webmonkey.com/2010/02/learn_enough_unix_for_your_resume/#Basic_Commands)
-
-    5. Git and Github
+5. Git and Github
 
       - [Introduction to Git and Command Line by Steve Klise](http://sklise.com/2012/09/22/introduction-to-git/)
       - [Git workflow for beginners](http://sklise.com/2012/10/07/git-workflow-beginner/)
       - ["Try" Git tutorial](https://try.github.io/levels/1/challenges/1)
       - Github Pages: By no means, is github pages required for hosting your projects. But it's free and fast and lives on github. So there are many reasons why you might like to consider it, at least during the homework / experimentation stage / of a project.
 
-- Exercises / Assignments: _history, web.archive.org, and Source Code_
+- **Exercises / Assignments:** _history, web.archive.org, and Source Code_
 
     1. Read about the [History of the Web](http://webfoundation.org/about/vision/history-of-the-web/) 
 and [Browsers.](http://www.telegraph.co.uk/technology/microsoft/11577364/Web-browsers-a-brief-history.html) 
