@@ -64,20 +64,19 @@ You will be expected to purchase hosting space for your work between October and
 
 **Exercises / Assignments:** _history, web.archive.org, and Source Code_
 
-    1. Read about the [History of the Web](http://webfoundation.org/about/vision/history-of-the-web/) 
+1. Read about the [History of the Web](http://webfoundation.org/about/vision/history-of-the-web/) 
 and [Browsers.](http://www.telegraph.co.uk/technology/microsoft/11577364/Web-browsers-a-brief-history.html) 
-			
-		- Describe the terms 
-			- HTML
-			- URL
-			- 'internetwork'
+	- Describe the terms 
+	- HTML
+	- URL
+	- 'internetwork'
     
-    1. Find the earliest instance of google.com that you can on [web.archive.org](https://web.archive.org) and describe the interface and interaction.
-    2. Go to an artists website that you admire. Describe what about the design of this site you like or do not like, and why? Also discuss any of the following topics as are relevant: navigation, page load times, layout, intuitiveness, features, clutter, simplicity, etc. (Don't worry that we have not covered these terms yet. Take you best guess.)
-    3. Now, use the archive site and look for the earliest instance of the site, and describe differences from its first appearance, as well as the general evolution over the course of its existence.
-    4. Examine the source code and describe anything interesting, you find about it?
-    5. Write all of your answers into the markdown example file available from the [github repository](https://github.com/michaelmusick/341_webDev/blob/master/class_1.1/HW-1.1.md)
-    6. Upload this file to your github.io site and add the link to the [HW Week 1.1 wiki](https://github.com/michaelmusick/341_webDev/wiki/HW-Week-1.1)
+1. Find the earliest instance of google.com that you can on [web.archive.org](https://web.archive.org) and describe the interface and interaction.
+2. Go to an artists website that you admire. Describe what about the design of this site you like or do not like, and why? Also discuss any of the following topics as are relevant: navigation, page load times, layout, intuitiveness, features, clutter, simplicity, etc. (Don't worry that we have not covered these terms yet. Take you best guess.)
+3. Now, use the archive site and look for the earliest instance of the site, and describe differences from its first appearance, as well as the general evolution over the course of its existence.
+4. Examine the source code and describe anything interesting, you find about it?
+5. Write all of your answers into the markdown example file available from the [github repository](https://github.com/michaelmusick/341_webDev/blob/master/class_1.1/HW-1.1.md)
+6. Upload this file to your github.io site and add the link to the [HW Week 1.1 wiki](https://github.com/michaelmusick/341_webDev/wiki/HW-Week-1.1)
 
 ### Week 2: 9.5 [Monday Holiday]
 
