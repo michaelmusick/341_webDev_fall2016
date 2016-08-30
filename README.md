@@ -66,10 +66,10 @@ You will be expected to purchase hosting space for your work between October and
 
 1. Read about the [History of the Web](http://webfoundation.org/about/vision/history-of-the-web/) 
 and [Browsers.](http://www.telegraph.co.uk/technology/microsoft/11577364/Web-browsers-a-brief-history.html) 
-- Describe the terms 
-	- HTML
-	- URL
-	- 'internetwork'
+	- Describe the terms 
+		- HTML
+		- URL
+		- 'internetwork'
     
 1. Find the earliest instance of google.com that you can on [web.archive.org](https://web.archive.org) and describe the interface and interaction.
 2. Go to an artists website that you admire. Describe what about the design of this site you like or do not like, and why? Also discuss any of the following topics as are relevant: navigation, page load times, layout, intuitiveness, features, clutter, simplicity, etc. (Don't worry that we have not covered these terms yet. Take you best guess.)
