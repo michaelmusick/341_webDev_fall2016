@@ -1,8 +1,4 @@
----
-layout: page
----
-<!-- Do not change the above 'front matter' -->
-<!-- Edit below these comments -->
+<!-- Copy and then Edit this file as neccessary -->
 
 # HW 1.1
 ## Bob Loblaw ##
