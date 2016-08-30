@@ -48,8 +48,8 @@ You will be expected to purchase hosting space for your work between October and
 	  - [History of the Web.](http://webfoundation.org/about/vision/history-of-the-web/) 
 	  - [Browsers.](http://www.telegraph.co.uk/technology/microsoft/11577364/Web-browsers-a-brief-history.html)
   2. Text editors 
-	  - [ST3](https://www.sublimetext.com/3) 
-		- [Atom](https://atom.io) 
+	- [ST3](https://www.sublimetext.com/3) 
+	- [Atom](https://atom.io) 
 	3. Viewing source code. 
 
 	4. Unix
