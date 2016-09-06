@@ -110,6 +110,8 @@ SECTON 1: Fundamentals
 
 -	Exercises / Assignments:
 
+	-	[Read about the design of HTML5](https://html5forwebdesigners.com/design/)
+
 	-	Copy a Poem; *complete this assignment if you have not yet*
 
 	-	Find a poem between 10-30 lines long. Copy it into an index.html file.
@@ -120,7 +122,7 @@ SECTON 1: Fundamentals
 
 	-	Finally, this document should follow the best style and practices discussed in class and include all necessary meta data.
 
-	-	Post this to your GitHub Pages account, and add the link to the class wiki.
+	-	Post this to your GitHub Pages account, and add the link to the class wiki [*HW Week 1.2*](https://github.com/michaelmusick/341_webDev/wiki/HW-Week-1.2).
 
 ### Week 3: 9.12
 
