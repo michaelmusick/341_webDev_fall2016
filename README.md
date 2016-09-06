@@ -44,13 +44,13 @@ You will be expected to purchase hosting space for your work between October and
 - Topic: Basic Terms and Concepts
 - Focus Areas: The Web and Development Environment
 
-1. Syllabus & Class overview. 
-	  - [History of the Web.](http://webfoundation.org/about/vision/history-of-the-web/) 
+1. Syllabus & Class overview.
+	  - [History of the Web.](http://webfoundation.org/about/vision/history-of-the-web/)
 	  - [Browsers.](http://www.telegraph.co.uk/technology/microsoft/11577364/Web-browsers-a-brief-history.html)
-2. Text editors 
-	- [ST3](https://www.sublimetext.com/3) 
-	- [Atom](https://atom.io) 
-3. Viewing source code. 
+2. Text editors
+	- [ST3](https://www.sublimetext.com/3)
+	- [Atom](https://atom.io)
+3. Viewing source code.
 
 4. Unix
 	- [Basic Unix Commands](http://www.webmonkey.com/2010/02/learn_enough_unix_for_your_resume/#Basic_Commands)
@@ -64,13 +64,13 @@ You will be expected to purchase hosting space for your work between October and
 
 **Exercises / Assignments:** _history, web.archive.org, and Source Code_
 
-1. Read about the [History of the Web](http://webfoundation.org/about/vision/history-of-the-web/) 
-and [Browsers.](http://www.telegraph.co.uk/technology/microsoft/11577364/Web-browsers-a-brief-history.html) 
-	- Describe the terms 
+1. Read about the [History of the Web](http://webfoundation.org/about/vision/history-of-the-web/)
+and [Browsers.](http://www.telegraph.co.uk/technology/microsoft/11577364/Web-browsers-a-brief-history.html)
+	- Describe the terms
 		- HTML
 		- URL
 		- 'internetwork'
-    
+
 1. Find the earliest instance of google.com that you can on [web.archive.org](https://web.archive.org) and describe the interface and interaction.
 2. Go to an artists website that you admire. Describe what about the design of this site you like or do not like, and why? Also discuss any of the following topics as are relevant: navigation, page load times, layout, intuitiveness, features, clutter, simplicity, etc. (Don't worry that we have not covered these terms yet. Take you best guess.)
 3. Now, use the archive site and look for the earliest instance of the site, and describe differences from its first appearance, as well as the general evolution over the course of its existence.
@@ -78,18 +78,16 @@ and [Browsers.](http://www.telegraph.co.uk/technology/microsoft/11577364/Web-bro
 5. Write all of your answers into the markdown example file available from the [github repository](https://github.com/michaelmusick/341_webDev/blob/master/class_1.1/HW-1.1.md)
 6. Upload this file to your github.io site and add the link to the [HW Week 1.1 wiki](https://github.com/michaelmusick/341_webDev/wiki/HW-Week-1.1)
 
-### Week 2: 9.5 [Monday Holiday]
+### Week 2.1: 9.6
 
-- Topic: HTML 1
-- Focus Areas: Hello World
+-   Topic: HTML 1
+-   Focus Areas: Hello World
 
-  1. Intro to "HMTL5, CSS3, & JS", index.html, `<Head><Body>`, "Hello World"
-
-    1. [HTML 5 For Web Designers (Content on right)](http://html5forwebdesigners.com/) 3.
+  1. Review intro to "HMTL5, CSS3, & JS", index.html, `<Head><Body>`, "Hello World"
+  [HTML 5 For Web Designers (Content on right)](http://html5forwebdesigners.com/)
 
   2. Markup, "Elements, Tags, & Attributes", Style & Best Practices,
-
-    1. [Mozilla Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) 4.
+    [Mozilla Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) 4.
 
 - Exercises / Assignments:
 
@@ -270,3 +268,6 @@ All students must practice academic honesty. Academic misconduct is subject to a
 ## Changes to the Course
 
 I reserve the right to change the intended content of this course throughout the semester. This may be done to adjust for the speed of the class, to better meet educational goals, or to account for changes in technology.
+
+## References and Sources
+Much of the content for this course will come from the The [HTML & CSS book](http://www.htmlandcssbook.com/). Many code examples are also copied or derived from their examples also available from the books homepage. 
