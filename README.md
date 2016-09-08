@@ -131,7 +131,7 @@ SECTON 1: Fundamentals
 
 Exercise/Assignment
 -	Create an html page that is a story of nonsense.
--	See the HW Wiki page for details.
+-	See the [HW Wiki](wiki/HW-Week-2.2) page for details.
 
 ### Week 3: 9.12
 
