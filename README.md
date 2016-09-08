@@ -1,18 +1,18 @@
-MART 341 Intro to Web Development | Fall 2016
-=============================================
+# MART 341 Intro to Web Development | Fall 2016
 
-SYLLABUS
-========
 
-Professor Michael Musick
-------------------------
+## SYLLABUS
+
+
+### Professor Michael Musick
+
 
 -	Email: michael.musick@umontana.edu
 -	Office: 232 - McGill Hall
 -	Office Hours: Tuesdays, 10:30AM-Noon; Wednesdays, 2:30PM-4:00PM
 
-Course Overview
----------------
+### Course Overview
+
 
 This course is intended to make you comfortable with presenting yourself through the web. In addition, you will learn skills that should allow you to build, manage, and develop websites for potential customers.
 
@@ -123,6 +123,15 @@ SECTON 1: Fundamentals
 	-	Finally, this document should follow the best style and practices discussed in class and include all necessary meta data.
 
 	-	Post this to your GitHub Pages account, and add the link to the class wiki [*HW Week 1.2*](https://github.com/michaelmusick/341_webDev/wiki/HW-Week-1.2).
+
+### Week 2.2: 9.8
+
+-	Topic: HTML 1
+-	Focus Areas: Links and Images
+
+Exercise/Assignment
+-	Create an html page that is a story of nonsense.
+-	See the HW Wiki page for details.
 
 ### Week 3: 9.12
 
