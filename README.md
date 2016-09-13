@@ -32,6 +32,7 @@ Books (optional)
 ----------------
 
 -	If you are interested in some supplemental reading on HTML and CSS, The [HTML & CSS book](http://www.htmlandcssbook.com/) is a nice one.
+-	I have also recently come across ["HTML5: Up & Running"](http://diveintohtml5.info/index.html), which is a community sourced book of information on HTML5!
 
 Server Hosting
 --------------
@@ -133,13 +134,23 @@ Exercise/Assignment
 -	Create an html page that is a story of nonsense.
 -	See the [HW Wiki](https://github.com/michaelmusick/341_webDev/wiki/HW-Week-2.2) page for details.
 
-### Week 3: 9.12
+### Week 3.1: 9.13
 
 -	Topic: HTML 2
--	Focus Areas: "Semantic Markup"
+-	Focus Areas: More Elements in HTML5
 
-	1.	Attributes, Semantic Meaning
-	2.	Images, Hyperlinks, "The Internet"
+	1.	tables
+	2.	forms
+
+### Week 3.2: 9.15
+
+-	Topic: HTML 2
+-	Focus Areas: More Elements in HTML5
+
+	1.	extra markup
+	2.	flash
+	3.	audio
+	4.	video
 
 -	Exercises / Assignments:
 

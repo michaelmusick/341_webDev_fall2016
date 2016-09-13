@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Form Structure</title>
+	</head>
+	<body>
+		<!-- We use the form element. -->
+		<!-- action
+			The action attribute is a link to the php, js, etc code on a server that will do 'something' with the user data before returning information to the browser.
+			The value of the action attribute will always be an URL.
+		-->
+		<!-- method
+			Forms can be sent using one of two methods; 'get' or 'post'.
+			With the 'get' method, values are added to the end of the specified action URL. This methods is ideal for searches, or for retrieving data from a server (as opposed to sending data that will be stored in a database).
+			With the 'post' method, values are sent in what are known as 'HTTP headers'. As a rule of thumb, use the 'post' method when;
+				- users are uploading a file.
+				- the data will be very long
+				- the data is sensitive (ie. contains passwords)
+				- Is altering or accessing a database on the server.
+		-->
+		<!-- id
+			As with many other elements in HTML, you should assign a unique element ID that can be used by other languages to refer to the specific form
+		 -->
+
+		<form action="http://www.example.com/subscribe.php" method="get" id="basicForm">			<p>This is where the form controls will appear.</p>		</form>
+	</body>
+</html>

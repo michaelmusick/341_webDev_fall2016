@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Labelling Form Controls</title>
+	</head>
+	<body>
+		<!-- Each form control should have its own label element.
+			This makes the form accessible to vision impaired users.
+		-->
+		<form action="http://www.example.com/subscribe.php">
+			<!-- Lables can be wrapped around both the text description and the form input -->
+			<label>Age: <input type="text" name="age" /></label>			<br/ >			<!-- Or labels can be included by using the for="" attribute to refer to the input fields id="" attribute.				This also expands the clickable area available to the user.			-->			Gender:
+			<input id="female" type="radio" name="gender" value="f">			<label for="female">Female</label>			<input id="male" type="radio" name="gender" value="m">			<label for="male">Male</label>			<!-- As a rule of thumb, lables should be placed 'above or to the left' of the input area for test, select boxes, and file uploads. Lables should be placed to the right of individual checkboxes and radio buttons -->		</form>
+	</body>
+</html>
