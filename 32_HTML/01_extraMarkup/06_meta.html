@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--
+			The META element lives inside the <head> element and contains information about that webpage.
+			It is not visible to users but fulfills a number of purposes such as telling search engines about your page, who created it, and whether or not it is time sensitive.
+			The meta element is an empty element.
+			The most common attributes are 'name' and 'content'. These attributes are often used together and specify the properties of the entire page. The value of the name attribute is the property you are setting, and the value of the content attribute is the value that you want to give to this property.
+				For example, on the first meta line below, the name attribute indicates an intention to specify a description for the page. The content attribute is where this description is actually specified.
+				The value of the name attribute can be anything you want it to be. However, some defined values for this attribute that are commonly used include:
+					Description - This contains a description of the page. This description is commonly used by search engines to understand what the page is about. As such, it should be less than 155 characters.
+					keywords - This contains a list of comma-seperated words that a user might search n to find the page. In practice, this no longer has any noticable effect on how search engines index yoru site.
+					robots - This indicates whether search engines should add this page to their search results or not. A value of `noindex` can be used if this page should not be added. A value of `nofollow` can be used if search engines should add this page in their results but not any pages that it links to.
+			The meta element also commonly uses the `http-equiv` and `content` attributes in pairs. Common values supplied to `http-equiv` include:
+				author - This defines the author of the webpage.
+				pragma - This prevents the browser from caching the page. (That is, storing it locally to save time downloading it on subsequent visits.)
+				expires - Because browsers often cache the content of a page, the `expires` option can be used to indicate when the page should expire (no longer be cached). Note the date must be specified in the format "Fri, 01 Mon 2016 23:59:59 GMT"
+		-->
+		<title>Information About Your Pages</title>
+		<meta name="description" content="An Essay on Installation Art" />
+		<meta name="keywords" content="installation, art, opinion" />
+		<meta name="robots" content="nofollow" />		<meta http-equiv="author" content="Jon Duckett" />		<meta http-equiv="pragma" content="no-cache" />		<meta http-equiv="expires" content="Fri, 04 Apr 2014 23:59:59 GMT" />
+	</head>
+	<body>
+		<p>Please view the source of this page to examine the meta data.</p>
+	</body>
+</html>

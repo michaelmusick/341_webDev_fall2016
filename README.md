@@ -148,11 +148,11 @@ Exercise/Assignment
 -	Focus Areas: More Elements in HTML5
 
 	1.	extra markup
-	2.	flash
-	3.	audio
-	4.	video
+	2.	audio
+	3.	video
 
 -	Exercises / Assignments:
+	[HW Wiki Page](wiki/HW-Week-3.2)
 
 ### Week 4: 9.19
 
