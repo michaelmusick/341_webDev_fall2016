@@ -152,7 +152,7 @@ Exercise/Assignment
 	3.	video
 
 -	Exercises / Assignments:
-	[HW Wiki Page](wiki/HW-Week-3.2)
+	[HW Wiki Page](https://github.com/michaelmusick/341_webDev/wiki/HW-Week-3.2)
 
 ### Week 4: 9.19
 
