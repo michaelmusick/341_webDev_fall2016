@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Inheritance</title>
+		<style type="text/css">
+			/*
+			If you specify the 'font-family' or 'color' properties on the <body> element, they will apply to most child elements. This is because the value of the 'font-family' property is "INHERITED" by child elements. It saves you from having to apply these properties to as many elements (and results in simpler style sheets).
+			You can compare this with the 'background-color' or 'border' properties; they are "NOT INHERITED" by child elements. If these were inherited by all child elements then the page could look quite messy.
+
+			You can force a lot of properties to inherit parents elements by using 'inherit' for the value of the properties. In the below example, the <div> element with a class called 'page' inherits the padding size from the CSS rule that applies to the <body> element.
+			*/
+			body {
+				font-family: Arial, Verdana, sans-serif;
+				color: #665544;
+				padding: 10px;}
+			.page {
+				border: 1px solid #665544;
+				background-color: #efefef;
+				padding: inherit;}
+		</style>
+	</head>
+	<body>
+		<div class="page">
+			<h1>Potatoes</h1>			<p>There are dozens of different potato varieties.</p>
+			<p>They are usually described as early, second early and maincrop potatoes.</p>
+		</div>
+	</body>
+</html>
