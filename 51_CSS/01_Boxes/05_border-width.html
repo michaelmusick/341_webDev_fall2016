@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Border Width</title>
+		<!--
+			Every box has three properties that can be adjusted to control its appearance.
+			Border, Margin, and Padding.
+		-->
+		<style type="text/css">
+			body {
+				font-family: Arial, Verdana, sans-serif;
+				color: #111111;}
+			/*
+			Every box has a border, even if it cannot be seen, or the value is set to 0px.
+			The border seperates the edge of one box from another.
+			*/
+			/*
+			Border width can be specified in pixels or by specifying one of three values (thin, medium, or thick)
+			*/
+			p {				width: 200px;				border-style: solid;}			p.one {				border-width: 2px;}			p.two {				border-width: thick;}			/*			Borders can be specified individually using the following properties:			border-top-width			border-right-width			border-bottom-width			border-left-width			Aternatively, the four border values can be provided in property like below.			*/			p.three {				border-width: 1px 4px 12px 4px;}
+		</style>
+	</head>
+	<body>
+		<p class="one">Hohner's "Clavinet" is essentially an electric clavichord.</p>		<p class="two">Hohner's "Clavinet" is essentially an electric clavichord.</p>		<p class="three">Hohner's "Clavinet" is essentially an electric clavichord.</p>
+	</body>
+</html>

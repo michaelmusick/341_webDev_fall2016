@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Padding</title>
+		<style type="text/css">
+			body {
+				font-family: Arial, Verdana, sans-serif;
+				color: #111111;}
+			p {				width: 275px;				border: 2px solid #0088dd;}			p.example {				padding: 10px;}
+			p.differentSides {
+				padding: 50px 200px 30px 100px;}
+		</style>
+	</head>
+	<body>
+		<p>The padding operty allows you to specify how much space should appear between the content of an element and its border.</p>		<p class="example">The value of this property is most often specified in pixels (although it is also possible to use percentage or ems). If a percentage is used, the padding is a percentage of the browser window (or of the containing nox if it is inside another box).
+		<br />
+		<br />
+		Please NOTE: If a width is specified for a box, padding is added onto the width of the box. As you can see, this paragraph is much easier to read because there is a space between the text and the border of the box. The box is also wider beacuse it has padding.</p>
+		<p class="differentSides">You can specify different alues for each side of a box using: padding-top/right/bottom/left. Or you can use a shorthand, where the values are in clockwise order: top, right, bottom, left.
+		<br />
+		The value of the padding propert is not inherited by child elements in the same way that the color value of the font-familt property is; so you need to specify the padding for every element that needs to use it.
+		</p>
+	</body>
+</html>

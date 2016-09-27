@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Border Color</title>
+		<style type="text/css">
+			body {
+				font-family: Arial, Verdana, sans-serif;
+				color: #111111;}
+			p {
+				/* Define the border style */
+				border-style: solid;
+				/* Define the border width in pixels. */
+				border-width: 3px;
+				/* Define the width of the HTML <p> element. */
+				width: 200px;}
+			p.one {
+				/* A single border color will be applied to all four edges. */
+				border-color: #0088dd;}
+			p.two {
+				/* When two or more colors are used they will be applied alternativly. */
+				/* You coulde also specify individual border lines using border-top/right/bottom/left-color */
+				border-color: #bbbbaa #111111 #ee3e80 #0088dd;}
+		</style>
+	</head>
+	<body>
+		<p class="one">The ARP Odyssey was introduced in 1972.</p>		<p class="two">The ARP Odyssey was introduced in 1972.</p>
+	</body>
+</html>
