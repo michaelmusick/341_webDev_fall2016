@@ -8,17 +8,20 @@
 			p {
 				width: 300px;
 				padding: 50px;
-				border: 20px solid #0088dd;}
+				border: 20px solid #0088dd;
+				text-align: right;
+			}
 			p.example {
+				width: 50%;
 				margin: 70px auto;
 				text-align: left;}
 		</style>
 	</head>
 	<body>
-		<p>If you want to center a box on the page, or senter it inside the element it sits in, you can set the left-margin and right-margin to auto.</p>
+		<p>If you want to center a box on the page, or center it inside the element it sits in, you can set the left-margin and right-margin to auto.</p>
 		<p class="example">In order to center a box on the page, you need to specify the width for the box (otherwise it will take up the full width of the page).
 		<br />
-		For this to work in order browsers, the element that the box sits inside should have a text-align: center property-value. Then for each child element, you should set the desired text-align property:value.
+		For this to work in older browsers, the element that the box sits inside should have a text-align: center property-value. Then for each child element, you should set the desired text-align property:value.
 		</p>
 	</body>
 </html>

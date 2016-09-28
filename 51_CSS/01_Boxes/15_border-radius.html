@@ -7,21 +7,22 @@
 				border: 5px solid #ee3e80;
 				padding: 20px;
 				width: 275px;
-				border-radius: 10px;
 				-moz-border-radius: 10px;
-				-webkit-border-radius: 10px;}
+				/*-webkit-border-radius: 10px 5px 30px 1px;*/
+				border-radius: 10px 5px 100px 1px;
+			}
 		</style>
 	</head>
 	<body>
-		<p>CSS3 introduces the ability to create rounded corners on any box, using a property called border-radius. That balue indicates the size of the radius in pixels.
+		<p>CSS3 introduces the ability to create rounded corners on any box, using a property called border-radius. That value indicates the size of the radius in pixels.
 		<br />
 		Older browsers that do not support this property will display square corners.
 		<br />
 		<br />
-		The -miz-border-radius and -webkit-border-radius properties are not in the the CSS specification. However, they are used in some versions of Chrome, Firefox, and Safari to offer early support for this style.
+		The -moz-border-radius and -webkit-border-radius properties are not in the the CSS specification. However, they are used in some versions of Chrome, Firefox, and Safari to offer early support for this style.
 		<br />
 		<br />
-		You can specify individual values for each corner of a bix using:
+		You can specify individual values for each corner of a box using:
 		border-top-right-radius, border-bottom-right-radius, etc.
 		<br>
 		You can also specify corner radius using shorthand -> border-radius: 5px 10px 7px 12px;
