@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Relative Positioning</title>
+		<style type="text/css">
+			body {
+				width: 750px;
+				font-family: Arial, Verdana, sans-serif;
+				color: #665544;}
+			p {
+				width: 450px;}
+			p.example {
+				position: relative;
+				top: 10px;
+				left: 100px;}
+		</style>
+	</head>
+	<body>
+		<h1>Relatie Positioning</h1>
+		<h2>position:relative</h2>
+		<p>Relative positioning moves an element in relation to where it would have been in normal flow.</p>
+		<p>For example, you can move it 10 pixels lower than it would have been in normal flow or 20% to the right.		</p>
+		<p class="example">You can indicate that an element should be relatively positioned using the position property with a value of relative. You then use the offset properties (top or bottom and left or right) to indicate how far to move the element from where it would have been in normal flow. To move the box up or down, you can use either the top or bottom properties.</p>
+		<p>To move the box horizontally, you can use either the left or right properties. The values of the box offset properties are usually given in pixels, percentages or ems.</p>
+	</body>
+</html>

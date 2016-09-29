@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Parent Float - Solution</title>
+		<style type="text/css">
+			body {
+				width: 752px;
+				font-family: Arial, Verdana, sans-serif;
+				color: #665544;}
+			div {
+				border: 1px solid #665544;
+				overflow: auto;
+				width: 100%;}
+			p {
+				width: 230px;
+				float: left;
+				margin: 10px;}
+			.clear {
+				clear: both;}
+		</style>
+	</head>
+	<body>
+		<h1>PARENTS OF FLOATED ELEMENTS: SOLUTION</h1>
+		<div>
+			<p>Traditionally, developers got around this problem by adding an extra element after the last floated box (inside the containing element). A CSS rule would be applied to this additional element setting the clear property to have a value of both. But this meant that an extra element was added to the HTML just to fix the height of the containing element.</p>
+			<p>More recently, developers have opted for a purely CSS-based solution because it means that there is no need to add an extra element to the HTML page after the floated elements. The pure CSS solution adds two CSS rules to the containing element (in this example the div element):</p>
+			<p>The <em>overflow</em> property is given a value auto. </p>
+			<p class="clear">The <em>width</em> property is set to 100%.</p>
+			<p>NONSENSE In 1870 the first all-metal machine appeared. The pedals were attached directly to the front wheel.
+			<p>NONSENSE Solid rubber tires and the long spokes of the large front wheel provided a much smoother ride than its predecessor.</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Using Float to Place Elements Side-by-Side</title>
+		<style type="text/css">
+			body {
+				width: 750px;
+				font-family: Arial, Verdana, sans-serif;
+				color: #665544;}
+			p {
+				width: 230px;
+				float: left;
+				margin: 5px;
+				padding: 5px;
+				background-color: #efefef;}
+		</style>
+	</head>
+	<body>
+		<h1>USING FLOAT TO PLACE ELEMENTS SIDE-BY-SIDE</h1>
+		<p>A lot of layouts place boxes next to each other. The float property is commonly used to achieve this.</p>
+		<p>When elements are floated, the height of the boxes can affect where the following elements sit.</p>
+		<p>In this example, you can see six paragraphs, each of which has a width and a float property set. </p>
+		<p>The fourth paragraph (this one) does not go across to the left hand edge of the page as one might expect. Rather it sits right under the third paragraph.</p>
+		<p>The reason for this is that the fourth paragraph has space to start under the third paragraph, but it cannot go any further to the left because the second paragraph is in the way.</p>
+		<p>Setting the height of the paragraphs to be the same height as the tallest paragraph would solve this issue, but it is rarely suited to real world designs where the amount of text in a paragraph or column may vary. It is more common to use the clear property to solve this issue.</p>
+	</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fixed Width Layout</title>
+		<style type="text/css">
+			* {
+				font-family: Arial, Verdana, sans-serif;
+				color: #665544;
+				text-align: center;}
+			body {
+				width: 960px;
+				margin: 0 auto;}
+			#content {
+				overflow: auto;
+				height: 100%;}
+			#nav, #feature, #footer {
+				background-color: #efefef;
+				padding: 10px;
+				margin: 10px;}
+			.column1, .column2, .column3 {
+				background-color: #efefef;
+				width: 300px;
+				float: left;
+				margin: 10px;}
+			li {
+				display: inline;
+				padding: 5px;}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<h1>Logo</h1>
+			<div id="nav">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Products</a></li>
+					<li><a href="">Services</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="content">
+			<div id="feature">
+				<p>Feature</p>
+			</div>
+			<div class="article column1">
+				<p>Column One</p>
+			</div>
+			<div class="article column2">
+				<p>Column Two</p>
+			</div>
+			<div class="article column3">
+				<p>Column Three</p>
+			</div>
+		</div>
+		<div id="footer">
+			<p>&copy; Copyright 2011</p>
+		</div>
+		<p>
+			To create a fixed width layout, the width of the main boxes on a page will usually be specified in pixels (and sometimes their height, too).
+		</p>
+		<p>
+			Here you can see several div elements, each of which uses an id or class attribute to indicate its purpose on the page.
+		</p>
+		<p>
+			The fixed width layout will stay the same width no matter what size the browser window is, whereas the liquid layout will stretch (or shrink) to fill the screen.
+		</p>
+		<p>
+			The rule for the body element is used to fix the width of the page at 960 pixels, and it is centered by setting the left and right margins to auto.
+		</p>
+		<p>
+			The main boxes on the page have a margin of 10 pixels to create a gap between them.
+		</p>
+		<p>
+			The navigation, feature, and footer panels stretch to the width of the containing element (which in this instance is the body element), so we do not need to specify a width for them.
+		</p>
+		<p>
+			The three columns are each 300 pixels wide and use the float property, which allows them to sit next to each other.
+		</p>
+	</body>
+</html>

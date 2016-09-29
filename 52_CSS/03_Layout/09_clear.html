@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Clear</title>
+		<style type="text/css">
+			body {
+				width: 750px;
+				font-family: Arial, Verdana, sans-serif;
+				color: #665544;}
+			p {
+				width: 230px;
+				float: left;
+				margin: 5px;
+				padding: 5px;
+				background-color: #efefef;}
+			.clear {
+				clear: left;}
+			em {
+				color: Red;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>CLEARNING FLOATS</h1>
+		<h2>clear</h2>
+		<p>The clear property allows you to say that no element (within the same containing element) should touch the left or right- hand sides of a box. It can take the following values:</p>
+		<p><em>left</em> The left-hand side of the box should not touch any other elements appearing in the same containing element.</p>
+		<p><em>right</em> The right-hand side of the box will not touch elements appearing in the same containing element.</p>
+		<p class="clear"><em>both</em> Neither the left nor right-hand sides of the box will touch elements appearing in the same containing element.</p>
+		<p><em>none</em> Elements can touch either side.</p>
+		<p>In this example, the fourth paragraph has a class called clear. The CSS rule for this class uses the clear property to indicate that nothing should touch the left-hand side of it. The fourth paragraph is therefore moved further down the page so no other element touches its left-hand side.</p>
+	</body>
+</html>

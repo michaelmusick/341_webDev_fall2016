@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aligning Form Controls - Problem</title>
+		<style type="text/css">
+			body {
+				font-family: Arial, Verdana, sans-serif;}
+		</style>
+	</head>
+	<body>
+		<form action="example.php" method="post">
+			<div>
+				<label for="name" class="title">Name:</label>
+				<input type="text" id="name" name="name" />
+			</div>
+			<div>
+				<label for="email" class="title">Email:</label>
+				<input type="email" id="email" name="email" />
+			</div>
+			<div class="radio-buttons">
+				<span class="title">Gender:</span>
+				<input type="radio" name="gender" id="male" value="M" />
+				<label for="male">M</label>
+				<input type="radio" name="gender" id="female" value="F" />
+				<label for="female">F</label><br />
+			</div>
+			<div class="submit">
+				<input type="submit" value="Register" id="submit" />
+			</div>
+		</form>
+		<p>
+			Labels for form elements are often different lengths, which means that the form controls will not appear in a straight line. This is demonstrated in this example. (without CSS applied to the form controls).
+			<br><br>
+			In this form, each topic we ask the user about is placed inside a div element to ensure that each question appears on a new line. It is easier for users to fill in a form if the form controls are aligned in a straight vertical line. The CSS in the next example addresses this.
+			<br><br>
+			If you look at where we ask users their gender, the two radio buttons each have their own label (one saying male and another saying female). A span element has been added to the title which will help align these controls.
+			<br><br>
+			In the previous example we saw another technique to align form elements. When the form only contains text inputs, by setting all of the text inputs to be the same width, as well as aligning all of the form content to the right, the fields line up and the labels are in a consistent place. For more complex forms, you will need a solution more like the one shown on these pages.
+		</p>
+	</body>
+</html>

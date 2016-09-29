@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Styling Text Inputs</title>
+		<style type="text/css">
+			input {
+				font-size: 120%;
+				color: #5a5854;
+				background-color: #f2f2f2;
+				border: 1px solid #bdbdbd;
+				border-radius: 5px;
+				padding: 5px 5px 5px 30px;
+				background-repeat: no-repeat;
+				background-position: 8px 9px;
+				display: block;
+				margin-bottom: 10px;}
+			input:focus, input:hover {
+				background-color: #ffffff;
+				border: 1px solid #b1e1e4;}
+			input#email {
+				background-image: url("images/email.png");}
+			input#twitter {
+				background-image: url("images/twitter.png");}
+			input#web {
+				background-image: url("images/web.png");}
+		</style>
+	</head>
+	<body>
+		<p>
+			CSS is commonly used to control the appearance of form elements. This is both to make them more attractive and to make them more consistent across differing browsers.
+		</p>
+		<p>
+			It is most common to style:
+		</p>
+		<ul>
+			<li>Text inputs and text areas</li>
+			<li>Submit buttons</li>
+			<li>Labels on forms to get the form controls to align</li>
+		</ul>
+		<p>
+			This example demonstrates the CS properties commonly used with text inputs, most of which you hae aleardy met.
+		</p>
+		<form>
+			<input type="text" id="email" />
+			<input type="text" id="twitter" />
+			<input type="text" id="web" />
+		</form>
+	</body>
+</html>

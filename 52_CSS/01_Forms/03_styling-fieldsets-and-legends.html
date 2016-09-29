@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Styling Fieldsets and Legends</title>
+		<style type="text/css">
+			* {
+				font-family: Arial, Verdana, sans-serif;
+				color: #665544;}
+			input {
+				border-bottom: 1px dotted #dcdcdc;
+				border-top: none;
+				border-right: none;
+				border-left: none;
+				padding: 5px;
+				width: 280px;
+				margin-bottom: 20px;}
+			input:focus {
+				border: 1px dotted #dcdcdc;
+				outline: none;}
+			input#submit {
+				color: #ffffff;
+				background-color: #665544;
+				border: none;
+				border-radius: 5px;
+				width: 80px;}
+			input#submit:hover {
+				color: #665544;
+				background-color: #efefef;}
+			fieldset {
+				width: 350px;
+				border: 1px solid #dcdcdc;
+				border-radius: 10px;
+				padding: 20px;
+				text-align: right;}
+			legend {
+				background-color: #efefef;
+				border: 1px solid #dcdcdc;
+				border-radius: 10px;
+				padding: 10px 20px;
+				text-align: left;
+				text-transform: uppercase;}
+			em {
+					color: Red;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend>Newsletter</legend>
+				<label for="name">Name: </label><input type="text" id="name" />
+				<label for="email">Email: </label><input type="text" id="email" />
+				<input type="submit" value="Subscribe" id="submit" />
+			</fieldset>
+		</form>
+		<p>
+			Fieldsets are particularly helpful in determining the edges of a form. In a long form they can help group together related information within it.
+			<br>
+			The legend is used to indicate what information is required in the fieldset.
+		</p>
+		<p>
+			Properties commonly used with these two elements include:	<br>
+			<em>width</em> is used to control the width of the fieldset. In this example, the width of the fieldset forces the form elements to wrap onto a new line in the correct place. (If it were wider, the items might sit on one line.) <br>
+
+			<em>color</em> is used to control the color of text.<br>
+
+			<em>background-</em>color is used to change the color behind these items. <br>
+
+			<em>border</em> is used to control the appearance of the border around the fieldset and/or legend. <br>
+
+			<em>border-radius</em> is used to soften the edges of these elements in browsers that support this property. <br>
+
+			<em>padding</em> can be used to add space inside these elements.
+		</p>
+	</body>
+</html>

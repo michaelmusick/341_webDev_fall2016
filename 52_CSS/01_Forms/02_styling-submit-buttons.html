@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Styling Submit Buttons</title>
+		<style type="text/css">
+			input {
+				font-size: 120%;
+				color: #5a5854;
+				background-color: #f2f2f2;
+				border: 1px solid #bdbdbd;
+				border-radius: 5px;
+				padding: 5px 10px 5px 10px;
+				background-repeat: no-repeat;
+				background-position: 8px 9px;
+				display: block;
+				margin-bottom: 10px;}
+			input#submit {
+				color: #444444;
+				text-shadow: 0px 1px 1px #ffffff;
+				border-bottom: 2px solid #b2b2b2;
+				background-color: #b9e4e3;
+				background: -webkit-gradient(linear, left top, left bottom, from(#beeae9), to(#a8cfce));
+				background: -moz-linear-gradient(top, #beeae9, #a8cfce);
+				background: -o-linear-gradient(top, #beeae9, #a8cfce);
+				background: -ms-linear-gradient(top, #beeae9, #a8cfce);}
+			input#submit:hover {
+				color: #333333;
+				border: 1px solid #a4a4a4;
+				border-top: 2px solid #b2b2b2;
+				background-color: #a0dbc4;
+				background: -webkit-gradient(linear, left top, left bottom, from(#a8cfce), to(#beeae9));
+				background: -moz-linear-gradient(top, #a8cfce, #beeae9);
+				background: -o-linear-gradient(top, #a8cfce, #beeae9);
+				background: -ms-linear-gradient(top, #a8cfce, #beeae9);}
+			em {
+				color: Red;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<input type="submit" value="Register" id="submit" />
+		</form>
+		<p>
+			Here are some properties that can be used to style submit buttons. This example builds on the one in the previous page, and the submit button inherits the styles set for the input element on the last page.
+		</p>
+		<p>
+			<em>color</em> is used to change the color of the text on the button. <br>
+			<em>text-shadow</em> can give a 3D look to the text in browsers that support this property. <br>
+			<em>border-bottom</em> has been used to make the bottom border of the buttons slightly thicker, which gives it a more 3D feel. <br>
+			<em>background-color</em> cane make the submit button stand out from items around it. (Creating a consistent style for all buttons helps users understand how they should interact with the site.) A gradient background has been added for browsers that support gradients. <br>
+			The <em>:hover</em> pseudo-class has been used to change the appearance of the button when the user hovers over it.
+		</p>
+	</body>
+</html>

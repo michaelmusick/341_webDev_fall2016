@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Absolute Positioning</title>
+		<style type="text/css">
+			body {
+				width: 750px;
+				font-family: Arial, Verdana, sans-serif;
+				color: #665544;}
+			h1 {
+				position: absolute;
+				top: 0px;
+				left: 500px;
+				width: 250px;}
+			p {
+				width: 450px;}
+		</style>
+	</head>
+	<body>
+		<h1>ABSOLUTE POSITIONING</h1>
+		<h2>poition:absolute</h2>
+		<p>When the position property is given a value of absolute, the box is taken out of normal flow and no longer affects the position of other elements on the page. (They act like it is not there.)</p>
+		<p>The box offset properties ( top or bottom and left or right) specify where the element should appear in relation to its containing element.</p>
+		<p>In this example, the heading has been positioned at the top of the page and 500 pixels from its left edge. The width of the heading is set to be 250 pixels wide.</p>
+		<p>The width property has also been applied to the p elements in this example to prevent the text from overlapping and becoming unreadable.</p>
+		<p>By default, most browsers add a margin to the top of the h1 element. This is why there is a gap between the top of the browser and the box containing the h1 element. If you wanted to remove this margin, you could add the following code to the h1 element's style rules: margin: 0px;</p>
+	</body>
+</html>

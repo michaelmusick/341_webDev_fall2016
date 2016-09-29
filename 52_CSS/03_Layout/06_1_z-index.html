@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Z-Index</title>
+		<style type="text/css">
+			body {
+				width: 750px;
+				font-family: Arial, Verdana, sans-serif;
+				color: #665544;}
+			h1 {
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				margin: 0px;
+				padding: 10px;
+				width: 100%;
+				background-color: #efefef;
+				z-index: 10;}
+			p {
+				position: relative;
+				top: 70px;
+				left: 70px;}
+			</style>
+	</head>
+	<body>
+		<h1>OVERLAPPING ELEMENTS</h1>
+		<h2>z-index</h2>
+		<p>When you use relative, fixed, or absolute positioning, boxes can overlap. If boxes do overlap, the elements that appear later in the HTML code sit on top of those that are earlier in the page.</p>
+		<p>If you want to control which element sits on top, you can use the z-index property. Its value is a number, and the higher the number the closer that element is to the front. For example, an element with a z-index of 10 will appear over the top of one with a z-index of 5.</p>
+		<p>This example looks similar to the 'position fixed example', but it uses relative positioning for the p elements. Because the paragraphs are relatively positioned, by default they would appear over the top of the heading as the user scrolls down the page. To ensure that the h1 element stays on top, we use the z-index property on the rule for the h1 element.</p>
+		<p>The z-index is sometimes referred to as the <b>stacking context</b> (as if the blocks have been stacked on top of each other on a z axis). If you are familiar with desktop publishing packages, it is the equivalent of using the 'bring to front' and 'send to back' features.</p>
+	</body>
+</html>
