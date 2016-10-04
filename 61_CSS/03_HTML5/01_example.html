@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML5 Layout</title>
+		<style type="text/css">
+			/*
+			HTML5 introduces a new set of elements that allow you to divide up the parts of a page. The names of these elements indicate the kind of content you will find in them. They are still subject to change, but that has not stopped many web page authors using them already.
+
+			Many the <div> elements can be replaced by new HTML5 layout elements.
+			For example, the header sits inside a new <header> element, the navigation in a <nav> element, and the articles are in individual <article> elements.
+
+			The point of creating these new elements is so that web page authors can use them to help describe the structure of the page. For example, screen reader software might allow users to ignore headers and footers and get straight to the content. Similarly, search engines might place more weight on the content in an <article> element than that in the <header> or <footer> elements. I think you will agree that it also makes the code easier to follow.
+			*/
+			header, section, footer, aside, nav, article, figure, figcaption {
+				display: block;}
+			body {
+				color: #666666;
+				background-color: #f9f8f6;
+				background-image: url("images/dark-wood.jpg");
+				background-position: center;
+				font-family: Georgia, Times, serif;
+				line-height: 1.4em;
+				margin: 0px;}
+			.wrapper {
+				width: 940px;
+				margin: 20px auto 20px auto;
+				border: 2px solid #000000;
+				background-color: #ffffff;}
+			/*
+			The <header> and <footer> elements can be used for:
+			- The main header or footer that appears at the top or bottom of every page on the site.
+			- A header or footer for an individual <article> or <section> within the page.
+
+			In this example, the <header> element used to contain the site name and the main navigation. The <footer> element contains copyright information, along with links to the privacy policy and terms and conditions. Each individual <article> and <section> element can also have its own <header> and <footer> elements to hold the header or footer information for that section within the page.
+
+			For example, on a page with several blog posts, each individual post can be thought of as a separate section. The <header> element can therefore be used to contain the title and date of each individual post, and the <footer> might contain links to share the article on social networking sites.
+			*/
+			header {
+				height: 160px;
+				background-image: url(images/header.jpg);}
+			h1 {
+				text-indent: -9999px;
+				width: 940px;
+				height: 130px;
+				margin: 0px;}
+			/*
+			The <nav> element is used to contain the major navigational blocks on the site such as the primary site navigation.
+			*/
+			nav, footer {
+				clear: both;
+				color: #ffffff;
+				background-color: #aeaca8;
+				height: 30px;}
+			nav ul {
+				margin: 0px;
+				padding: 5px 0px 5px 30px;}
+			nav li {
+				display: inline;
+				margin-right: 40px;}
+			nav li a {
+				color: #ffffff;}
+			nav li a:hover, nav li a.current {
+				color: #000000;}
+			/*
+			The <section> element groups related content together, and typically each section would have its own heading.
+
+			For example, on a homepage there may be several <section> elements to contain different sections of the page, such as latest news, top products, and newsletter signup.
+
+			Because the <section> element groups related items together, it may contain several distinct <article> elements that have a common theme or purpose.
+
+			Alternatively, if you have a page with a long article, the <section> element can be used to split the article up into separate sections.
+
+			The <section> element should not be used as a wrapper for the entire page (unless the page only contains one distinct piece of content). If you want a containing element for the entire page, that job is still best left to the <div> element.
+			*/
+			section.courses {
+				float: left;
+				width: 659px;
+				border-right: 1px solid #eeeeee;}
+			/*
+			The <article> element acts as a container for any section of a page that could stand alone and potentially be syndicated.
+
+			This could be an individual article or blog entry, a comment or forum post, or any other independent piece of content.
+
+			If a page contains several articles (or even summaries of several articles), then each individual article would live inside its own <article> element.
+
+			The <article> elements can even be nested inside each other. For example, a blog post might live inside one <article> element and each comment on the article could live inside its own child <article> element.
+				*/
+			article {
+				clear: both;
+				overflow: auto;
+				width: 100%;}
+			/*
+			The purpose of the <hgroup> element is to group together a set of one or more <h1> through <h6> elements so that they are treated as one single heading.
+			*/
+			hgroup {
+				margin-top: 40px;}
+			/*
+			You already met the <figure> element in Chapter 5 when we looked at images. It can be used to contain any content that is referenced from the main flow of an article (not just images).
+
+			It is important to note that the article should still make sense if the content of the <figure> element were moved (to another part of the page, or even to a different page altogether).
+
+			For this reason, it should only be used when the content simply references the element (and not for something that is absolutely integral to the flow of a page).
+
+			Examples of usage include:
+				- Images
+				- Videos
+				- Graphs
+				- Diagrams
+				- Code samples
+				- Text that supports the main body of an article
+
+			The <figure> element should also contain a <figcaption> element which provides a text decription for the content of the <figure> element. In this example, you can see a <figure> has been added inside the <article> element.
+			*/
+			figure {
+				float: left;
+				width: 290px;
+				height: 220px;
+				padding: 5px;
+				margin: 20px;
+				border: 1px solid #eeeeee;}
+			figcaption {
+				font-size: 90%;
+				text-align: left;}
+			/*
+			The <aside> element has two purposes, depending on whether it is inside an <article> element or not.
+
+			When the <aside> element is used inside an <article> element, it should contain information that is related to the article but not essential to its overall meaning. For example, a pullquote or glossary might be considered as an aside to the article it relates to.
+
+			When the <aside> element is used outside of an <article> element, it acts as a container for content that is related to the entire page. For example, it might contain links to other sections of the site, a list of recent posts, a search box, or recent tweets by the author.
+			*/
+			aside {
+				width: 230px;
+				float: left;
+				padding: 0px 0px 0px 20px;}
+			aside section a {
+				display: block;
+				padding: 10px;
+				border-bottom: 1px solid #eeeeee;}
+			aside section a:hover {
+				color: #985d6a;
+				background-color: #efefef;}
+			a {
+				color: #de6581;
+				text-decoration: none;}
+			h1, h2, h3 {
+				font-weight: normal;}
+			h2 {
+				margin: 10px 0px 5px 0px;
+				padding: 0px;}
+			h3 {
+				margin: 0px 0px 10px 0px;
+				color: #de6581;}
+			aside h2 {
+				padding: 30px 0px 10px 0px;
+				color: #de6581;}
+			footer {
+				font-size: 80%;
+				padding: 7px 0px 0px 20px;}
+			/*
+			It may seem strange to follow these new elements by revisiting the <div> element again. (After all, the new elements are often going to be used in its place.)
+
+			However, the <div> element will remain an important way to group together related elements, because you should not be using these new elements that you have just met for purposes other than those explicitly stated.
+
+			Where there is no suitable element to group a set of elements, the <div> element will still be used. In this example, it is used as a wrapper for the entire page.
+
+			Some people have asked why there is no <content> element to contain the main part of a page. The reason is that anything that lies outside of the <header>, <footer> or <aside> elements can be considered as the main content.
+			*/
+		</style>
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>Yoko's Kitchen</h1>
+				<nav>
+					<ul>
+						<li><a href="" class="current">home</a></li>
+						<li><a href="">classes</a></li>
+						<li><a href="">catering</a></li>
+						<li><a href="">about</a></li>
+						<li><a href="">contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section class="courses">
+				<article>
+					<figure>
+						<img src="images/bok-choi.jpg" alt="Bok Choi" />
+						<figcaption>Bok Choi</figcaption>
+					</figure>
+					<hgroup>
+						<h2>Japanese Vegetarian</h2>
+						<h3>Five week course in London</h3>
+					</hgroup>
+					<p>A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noodle dishes.</p>
+				</article>
+				<article>
+					<figure>
+						<img src="images/teriyaki.jpg" alt="Teriyaki sauce" />
+						<figcaption>Teriyaki Sauce</figcaption>
+					</figure>
+					<hgroup>
+						<h2>Sauces Masterclass</h2>
+						<h3>One day workshop</h3>
+					</hgroup>
+					<p>An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery.</p>
+				</article>
+			</section>
+			<aside>
+				<section class="popular-recipes">
+					<h2>Popular Recipes</h2>
+					<a href="">Yakitori (grilled chicken)</a>
+					<a href="">Tsukune (minced chicken patties)</a>
+					<a href="">Okonomiyaki (savory pancakes)</a>
+					<a href="">Mizutaki (chicken stew)</a>
+				</section>
+				<section class="contact-details">
+					<h2>Contact</h2>
+					<p>Yoko's Kitchen<br />
+						27 Redchurch Street<br />
+						Shoreditch<br />
+						London E2 7DP</p>
+				</section>
+			</aside>
+			<footer>
+				&copy; 2011 Yoko's Kitchen
+			</footer>
+		</div><!-- .wrapper -->
+	</body>
+</html>

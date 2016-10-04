@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Liquid Layout</title>
+		<style type="text/css">
+			* {
+				font-family: Arial, Verdana, sans-serif;
+				color: #665544;
+				text-align: center;}
+			body {
+				width: 90%;
+				margin: 0 auto;}
+			#content {
+				overflow: auto;}
+			#nav, #feature, #footer {
+				margin: 1%;}
+			.column1, .column2, .column3 {
+				width: 31.3%;
+				float: left;
+				margin: 1%;}
+			.column3 {
+				margin-right: 0%;}
+			li {
+				display: inline;
+				padding: 0.5em;}
+			#nav, #footer {
+				background-color: #efefef;
+				padding: 0.5em 0;}
+			#feature, .article {
+				min-height: 10em;
+				/*height: 10em;*/
+				padding: 0%;
+				margin-bottom: 1em;
+				background-color: #efefef;}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<h1>Logo</h1>
+			<div id="nav">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Products</a></li>
+					<li><a href="">Services</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="content">
+			<div id="feature">
+				<p>The liquid layout uses percentages to specify the width of each box so that the design will stretch to fit the size of the screen.</p>
+				<p>
+					There is a rule on the body element to set the width of the page to 90% so that there is a small gap between the left and right-hand sides of the browser window and the main content.
+				</p>
+				<p>
+					The three columns are all given a margin of 1% and a width of 31.3%. This adds up to 99.9% of the width of the body element, so some browsers might not perfectly align the right-hand side of the third column with other elements on the page.
+				</p>
+
+
+
+			</div>
+			<div class="article column1">
+				<p>Column One</p>
+				<p>
+					The div elements that hold the navigation, feature, and footer will stretch to fill the width of the containing body element. They are given a 1% margin to help them align with the columns.
+				</p>
+			</div>
+			<div class="article column2">
+				<p>Column Two</p>
+				<p>
+					If you imagine the browser window to be very wide or very narrow, you can see how lines of text could become very long or very short.
+				</p>
+			</div>
+			<div class="article column3">
+				<p>Column Three</p>
+				<p>
+					This is where the min-width and max-width properties help create boundaries within which the layout can stretch (although Internet Explorer 7 was the first version of IE to support these properties).
+				</p>
+			</div>
+		</div>
+		<div id="footer">
+			<p>&copy; Copyright 2011</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Grid Layout</title>
+		<!--
+		Let's take a look at an HTML page and how it has been marked up to use the 960.gs grid system.
+
+		You can see that we include the CSS for the grid using the <link> element inside the <head> of the page.
+		-->
+		<link rel="stylesheet" type="text/css" href="css/960_12_col.css" />
+		<!--
+		The 960.gs style sheet has taken care of the layout, creating the correct width for the columns and setting the spaces between them. Therefore, the only rules we needed to add are shown on this page. These rules:
+			- Control the font and the position of the text in the boxes
+			- Set the background colors for the boxes
+			- Set the height of the feature and article boxes
+			- Add a margin to the top and bottom of each box
+		-->
+		<style>
+			* {				font-family: Arial, Verdana, sans-serif;				color: #665544;				text-align: center;}			#nav, #feature, .article, #footer {				background-color: #efefef;				margin-top: 20px;				padding: 10px 0px 5px 0px;}			#feature, .article {				height: 100px;}			li {				display: inline;				padding: 5px;}
+		</style>	</head>	<body>		<!--		The 960_12_col.css stylesheet contains all of the rules we need to control the grid layout. The HTML uses the class names:			- container_12 to act as a container for the whole page and indicate that we are using a 12 column grid			- clearfix to ensure that browsers know the height of the containing box, because it only contains floated elements			- grid_12 to create a block that is twelve columns wide			- grid_4 to create a block that is four columns wide		-->		<div class="container_12 clearfix">			<div id="header" class="grid_12">				<h1>Logo</h1>				<div id="nav">					<ul>						<li><a href="">Home</a></li>						<li><a href="">Products</a></li>						<li><a href="">Services</a></li>						<li><a href="">About</a></li>						<li><a href="">Contact</a></li>					</ul>
+				</div>			</div>			<div id="feature" class="grid_12">				<p>Feature</p>			</div>			<div class="article grid_4">				<p>Column One</p>			</div>			<div class="article grid_4">				<p>Column Two</p>			</div>			<div class="article grid_4">				<p>Column Three</p>			</div>			<div id="footer" class="grid_12">				<p>&copy; Copyright 2011</p>			</div>		</div><!-- .container_12 -->	</body>
+</html>

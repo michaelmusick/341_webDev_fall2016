@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Image Sizes</title>
+		<!--
+		You can control the size of an image using the width and height properties in CSS, just like you can for any other box.
+
+		Specifying image sizes helps pages to load more smoothly because the HTML and CSS code will often load before the images, and telling the browser how much space to leave for an image allows it to render the rest of the page without waiting for the image to download.
+
+		You might think that your site is likely to have images of all different sizes, but a lot of sites use the same sized image across many of their pages.
+
+		For example, an e-commerce site tends to show product photos at the same size. Or, if your site is designed on a grid, then you might have a selection of image sizes that are commonly used on all pages, such as:
+
+		Small portrait: 220 x 360 Small landscape: 330 x 210 Feature photo: 620 x 400
+
+		Whenever you use consistently sized images across a site, you can use CSS to control the dimensions of the images, instead of putting the dimensions in the HTML.
+
+		First you need to determine the sizes of images that will be used commonly throughout the site, then give each size a name.
+
+		For example:
+		- small
+		- medium
+		- large
+
+		Where the <img> elements appear in the HTML, rather than using width and height attributes you can use these names as values for the class attribute.
+
+		In the CSS, you add selectors for each of the class names, then use the CSS width and height properties to control the image dimensions.
+		 -->
+		<style type="text/css">
+			img.large {
+				width: 500px;
+				height: 500px;}
+			img.medium {
+				width: 250px;
+				height: 250px;}
+			img.small {
+				width: 100px;
+				height: 100px;}
+		</style>
+	</head>
+	<body>
+		<img src="images/magnolia-large.jpg" class="large" alt="Magnolia" />
+		<img src="images/magnolia-medium.jpg" class="medium" alt="Magnolia" />
+		<img src="images/magnolia-small.jpg" class="small" alt="Magnolia" />
+	</body>
+</html>

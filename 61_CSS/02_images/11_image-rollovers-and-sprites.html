@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Image Rollovers and Sprites</title>
+		<style type="text/css">
+			/*
+			Using CSS, it is possible to create a link or button that changes to a second style when a user moves their mouse over it (known as a rollover) and a third style when they click on it.
+
+			This is achieved by setting a background image for the link or button that has three different styles of the same button (but only allows enough space to show one of them at a time). You can see the image we are using in this example on the right. It actually features two buttons on the one image.
+
+			When the user moves their mouse over the element, or clicks on it, the position of the background image is moved to show the relevant image.
+
+			When a single image is used for several different parts of an interface, it is known as a sprite. You can add the logo and other interface elements, as well as buttons to the image.
+
+			The advantage of using sprites is that the web browser only needs to request one image rather than many images, which can make the web page load faster.
+
+			In this example, you can see two links that look like buttons. Each of the buttons has three different states. These are all represented in a single image.
+
+			Because the <a> element is an inline element, we set the display property of these links to indicate that they should be inline-block elements. This allows us to specify the width and height of each <a> element so that it matches the size of its corresponding button.
+
+			The background-position property is used to move the image in order to show the button in the right state.
+
+			When the user hovers over a link, the :hover pseudo-class has a rule that moves the background-position of the image to show a different state for that button.
+
+			Similarly, when the user clicks on the link, the :active pseudo- class has a rule to show the third state for that button.
+
+			Touch screen devices will not change a link's state when the user hovers over it, as the screens do not yet have a way to tell when the user is hovering. However, they will change their appearance when the user activates them.
+			*/
+			a.button {
+				height: 36px;
+				background-image: url("images/button-sprite.jpg");
+				text-indent: -9999px;
+				display: inline-block;}
+			a#add-to-basket {
+				width: 174px;
+				background-position: 0px 0px;}
+			a#framing-options {
+				width: 210px;
+				background-position: -175px 0px;}
+			a#add-to-basket:hover {
+				background-position: 0px -40px;}
+			a#framing-options:hover {
+				background-position: -175px -40px;}
+			a#add-to-basket:active {
+				background-position: 0px -80px;}
+			a#framing-options:active {
+				background-position: -175px -80px;}
+		</style>
+	</head>
+	<body>
+		<a class="button" id="add-to-basket">Add to basket</a>
+		<a class="button" id="framing-options">Framing options</a>
+	</body>
+</html>

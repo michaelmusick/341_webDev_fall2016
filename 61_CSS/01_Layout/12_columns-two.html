@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Two Column Layout</title>
+		<style type="text/css">
+			body {
+				width: 100%;
+				font-family: Arial, Verdana, sans-serif;
+				color: #665544;}
+			.column1of2 {
+				float: left;
+				width: 550px;
+				margin: 10px;
+			}
+			.column2of2 {
+				float: left;
+				width: 250px;
+				margin: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>CREATING MULTI_COMUMN LAYOUTS WITH FLOATS</h1>
+		<div class="column1of2">
+			<h3>Column 1</h3>
+			<p>Many web pages use multiple columns in their design. This is achieved by using a div element to represent each column. The following three CSS properties are used to position the columns next to each other:</p>
+			<p><em>width</em> This sets the width of the columns.</p>
+			<p><em>float</em> This positions the columns next to each other.</p>
+			<p><em>margin</em> This creates a gap between the columns.</p>
+			<p>A two-column layout like the one shown on this page would need two div elements, one for the main content of the page and one for the sidebar. Inside each of the div elements there can be headings, paragraphs, images, and even other div elements.</p>
+		</div>
+		<div class="column2of2">
+			<h3>Bicycle Timeline</h3>
+			<ul>
+				<li>1817: Draisienne</li>
+				<li>1865: Velocipede</li>
+				<li>1870: High-wheel bicycle</li>
+				<li>1876: High-wheel safety</li>
+				<li>1885: Hard-tired safety</li>
+				<li>1888: Pneumatic safety</li>
+			</ul>
+		</div>
+	</body>
+</html>
