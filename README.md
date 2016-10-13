@@ -264,7 +264,7 @@ THANKSGIVING BREAK [Wednesday, Thursday, Friday Holiday]
 -	Focus Areas:
 -	Exercises / Assignments:
 
-### Finals Week: 12.12
+### Finals Week: 12.16 Friday 3:20-5:20
 
 -	Exercises / Assignments:
 
