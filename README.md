@@ -33,6 +33,7 @@ Books (optional)
 
 -	If you are interested in some supplemental reading on HTML and CSS, The [HTML & CSS book](http://www.htmlandcssbook.com/) is a nice one.
 -	I have also recently come across ["HTML5: Up & Running"](http://diveintohtml5.info/index.html), which is a community sourced book of information on HTML5!
+-	Learn the terminal, it is a powerful tool! [Unix for the Beginning Mage](http://unixmages.com/ufbm.pdf)
 
 Server Hosting
 --------------
@@ -263,7 +264,7 @@ THANKSGIVING BREAK [Wednesday, Thursday, Friday Holiday]
 -	Focus Areas:
 -	Exercises / Assignments:
 
-### Finals Week: 12.12
+### Finals Week: 12.16 Friday 3:20-5:20
 
 -	Exercises / Assignments:
 
