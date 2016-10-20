@@ -6,6 +6,7 @@
     body {
         font: 24px Helvetica;
         background: #999999;
+        background-image: image(url/relativeImge.jpg);
     }
 
     #main {
@@ -58,6 +59,9 @@
 
     /* Too narrow to support three columns */
     @media all and (max-width: 640px) {
+        body {
+          background-image: image(url/moreAppropriateImage.jpg);
+        }
         #main, #page {
             flex-direction: column;
         }
