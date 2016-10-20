@@ -33,7 +33,9 @@ Books (optional)
 
 -	If you are interested in some supplemental reading on HTML and CSS, The [HTML & CSS book](http://www.htmlandcssbook.com/) is a nice one.
 -	I have also recently come across ["HTML5: Up & Running"](http://diveintohtml5.info/index.html), which is a community sourced book of information on HTML5!
--	Learn the terminal, it is a powerful tool! [Unix for the Beginning Mage](http://unixmages.com/ufbm.pdf)
+-	Learn the terminal, it is a powerful tool!
+	-	[Unix for the Beginning Mage](http://unixmages.com/ufbm.pdf) (for mac and linux)
+	- [Windows Command Line](http://www.computerhope.com/issues/chusedos.htm)
 
 Server Hosting
 --------------
