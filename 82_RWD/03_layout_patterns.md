@@ -16,3 +16,8 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GKCVbekz_gk" frameborder="0" allowfullscreen></iframe>
 
 See the hamburger_example!
+
+## An old layout
+The "classic" layout is referred to as the "holy grail" layout.
+Please read the following article about this layout. This article also contains an elegant solution to the problem using flexbox, as well as a flex-flow solution for easy responsive design.
+[Holy Grail Layout](https://philipwalton.github.io/solved-by-flexbox/demos/holy-grail/)
