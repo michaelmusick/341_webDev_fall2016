@@ -1,0 +1,25 @@
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+body {
+  font-size: 1.1em;
+  background: #acacac;
+  color: #2d2d2d; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  background: #61bb79; }
+
+.flex_container {
+  background: #925e94; }
+  .flex_container header {
+    background: #0d46a8; }
+  .flex_container main {
+    background: #925e94; }
+
+/*# sourceMappingURL=styles.css.map */

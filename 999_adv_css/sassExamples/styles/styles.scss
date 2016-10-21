@@ -1,0 +1,38 @@
+$main-color: rgb(146, 94, 148);
+$secd-color: rgb(13, 70, 168);
+$hovr-color: rgb(97, 187, 121);
+$text-color: rgb(45, 45, 45);
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+    font-size: 1.1em;
+    background: #acacac;
+    color: $text-color;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background: $hovr-color;
+}
+
+
+.flex_container{
+    // display: flex;
+    // flex-flow: wrap;
+    background: $main-color;
+
+    header {
+        background: $secd-color;
+    }
+    main {
+        background: $main-color;
+    }
+}
