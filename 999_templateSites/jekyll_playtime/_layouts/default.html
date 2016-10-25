@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+ <html lang="en">
+     <head>
+         <meta charset="utf-8">
+
+         <title>{{page.title}}</title>
+         <meta name="description" content=" " />
+         <meta name="author" content="M. Musick" />
+         <!-- Use maximum-scale and user-scalable at your own risk. It disables pinch/zoom. Think about usability/accessibility before including.-->
+         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+
+         <link rel="stylesheet" type="text/css" href="css/main_style.css">
+     </head>
+     <body>
+         <div class="flex_container">
+
+             <!-- Header -->
+             {% include header.html %}
+
+             {{ content }}
+
+
+         </div>
+         <!-- <script type="text/javascript" src=" "></script> -->
+     </body>
+ </html>
