@@ -1,0 +1,121 @@
+*, *:before, *:after {
+}
+html {
+}
+
+body {
+}
+
+img {
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+}
+
+.flex_container {
+}
+
+main {
+}
+
+header {
+}
+
+.logo_image {
+
+}
+
+#h1_inHead {
+}
+
+aside{
+}
+
+nav {
+}
+
+.nav_bar {
+}
+
+.nav_elem {
+      list-style: none;
+}
+
+footer {
+  text-align: center;
+
+
+}
+
+.foot_elem {
+}
+
+@media screen and (min-width: 600px) {
+    body {
+
+    }
+    nav {
+
+
+    }
+
+    .flex_container {
+
+
+
+*/
+    }
+
+
+    main {
+
+    }
+    .logo_image {
+
+
+*/
+    }
+
+    aside{
+
+
+
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+    main {
+*/
+
+    }
+    aside{
+*/
+
+
+
+
+
+
+    }
+
+    header {
+
+
+
+    }
+
+    .logo_image {
+
+
+    }
+
+    #h1_inHead {
+
+
+    }
+}
