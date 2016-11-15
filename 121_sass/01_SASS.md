@@ -14,3 +14,7 @@ To install SASS locally follow the directions from their website.
 #### To Pre-Compile
 Then run the following in your terminal, according to your specified directory structure.
 `sass --watch styles/`
+
+## Resources
+- [scotch.io](https://scotch.io/tutorials/getting-started-with-sass)
+- [sass collection](http://www.thesassway.com)
