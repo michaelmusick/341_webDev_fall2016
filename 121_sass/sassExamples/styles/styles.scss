@@ -2,14 +2,15 @@
 // @Date:   21-10-2016 15:39
 // @Email:  michael@michaelmusick.com
 // @Last modified by:   michaelmusick
-// @Last modified time: 15-11-2016 07:41
+// @Last modified time: 15-11-2016 13:46
 
 
 
-$main-color: rgb(146, 94, 148);
+$main-color: rgb(94, 148, 104);
 $secd-color: rgb(13, 70, 168);
 $hovr-color: rgb(255, 0, 245);
 $text-color: rgb(45, 45, 45);
+
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -33,8 +34,8 @@ a:hover {
 
 
 .flex_container{
-    // display: flex;
-    // flex-flow: wrap;
+    display: flex;
+    flex-flow: wrap;
     background: $main-color;
 
     header {

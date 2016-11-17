@@ -16,10 +16,12 @@ a:hover {
   background: #ff00f5; }
 
 .flex_container {
-  background: #925e94; }
+  display: flex;
+  flex-flow: wrap;
+  background: #5e9468; }
   .flex_container header {
     background: #0d46a8; }
   .flex_container main {
-    background: #925e94; }
+    background: #5e9468; }
 
 /*# sourceMappingURL=styles.css.map */

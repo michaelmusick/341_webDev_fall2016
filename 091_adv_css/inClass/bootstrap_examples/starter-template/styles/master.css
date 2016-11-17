@@ -1,0 +1,18 @@
+/**
+* @Author: Musick, Michael <michaelmusick>
+* @Date:   03-11-2016 12:56
+* @Email:  michael@michaelmusick.com
+* @Last modified by:   michaelmusick
+* @Last modified time: 17-11-2016 09:35
+*/
+
+
+
+#site_logo {
+  max-width: 150px;
+}
+
+.bg-primary {
+  background-color: Pink !important;
+  /*background-color: Blue;*/
+}
