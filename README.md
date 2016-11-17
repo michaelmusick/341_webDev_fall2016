@@ -177,6 +177,7 @@ Exercise/Assignment
 
 -	Exercises / Assignments:
 
+<!--
 SECTION 2: APPLICATIONS
 -----------------------
 
@@ -265,10 +266,13 @@ THANKSGIVING BREAK [Wednesday, Thursday, Friday Holiday]
 -	Topic: Child Themes 2
 -	Focus Areas:
 -	Exercises / Assignments:
+-->
 
 ### Finals Week: 12.16 Friday 3:20-5:20
 
--	Exercises / Assignments:
+-	Critique of final site.
+
+
 
 Policies
 ========

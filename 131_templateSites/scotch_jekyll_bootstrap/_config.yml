@@ -1,8 +1,16 @@
+# @Author: Musick, Michael <michaelmusick>
+# @Date:   05-01-2016 12:49
+# @Email:  michael@michaelmusick.com
+# @Last modified by:   michaelmusick
+# @Last modified time: 17-11-2016 11:28
+
+
+
 # Where things are
 source:      .
 destination: ./_site
-plugins_dir:     ./_plugins
-layouts_dir:     ./_layouts
+plugins_dir: ./_plugins
+layouts_dir: ./_layouts
 data_dir: ./_data
 # collections: null
 
@@ -26,7 +34,7 @@ gems:      [jekyll-paginate]
 
 # Conversion
 markdown:    kramdown
-highlighter: pygments
+# highlighter: pygments
 lsi:         false
 excerpt_separator: "\n\n"
 
